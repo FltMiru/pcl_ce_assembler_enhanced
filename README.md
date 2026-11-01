@@ -2,9 +2,9 @@
 
 > 一个基于 Python + Tkinter 的 PCL CE 辅助工具，用于一键组装原版 Minecraft 版本、导入第三方整合包、以及在保留 Mod Loader 的前提下修改已有实例的游戏版本。
 
-!\[Python]([https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white))
-!\[License]([https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green))
-!\[Platform]([https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey))
+![Python]([https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white))
+![License]([https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green))
+![Platform]([https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey))
 
 ***
 
@@ -17,12 +17,6 @@
 - 想把一个装好了 Forge/Fabric 的实例"跨版本"升级或降级，但又不想丢失 Mod Loader 配置。
 
 本工具在本地完成版本 JSON、client.jar、natives 目录、模组文件的组装与校验，生成结果可直接被 PCL CE 识别。
-
-> 截图占位：`docs/screenshot-main.png`
->
-> ![主界面预览](docs/screenshot-main.png)
-
-***
 
 ## ✨ 功能特性
 
@@ -179,9 +173,11 @@ pcl-ce-assembler/
 ## ❓ 常见问题
 
 **Q: 组装完成后 PCL CE 里版本是红色 / 打不开？**
+
 A: 在 PCL CE 中选中该版本，点击"修补核心"补全缺失文件即可。如果勾选了"仅创建空 Jar 占位文件"，这一步是必须的。
 
 **Q: CurseForge 整合包下载模组失败？**
+
 A: 请确认已填写有效的 CurseForge API Key，且网络可访问 [`api.curseforge.com`](http://api.curseforge.com)。
 
 **Q: Linux 下运行报 `ModuleNotFoundError: No module named '_tkinter'`？**
@@ -191,6 +187,7 @@ Ubuntu / Debian 请执行 `sudo apt install python3-tk`；
 Fedora / RHEL 请执行 `sudo dnf install python3-tkinter`。
 
 **Q: BMCLAPI 是什么？**
+
 A: [BMCLAPI](https://bmclapidoc.bangbang93.com/) 是国内社区维护的 Minecraft 资源加速镜像，能显著提升国内用户的下载速度。
 
 ***
